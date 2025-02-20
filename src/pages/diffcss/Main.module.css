@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1266d4;
+    padding: 15px 50px;
+  }
+  
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+  .logo {
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+  }
+  
+  .navLinks {
+    font-size: 16px;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-weight: bold;
+    
+  }
+  
+ .navcomponents:hover{
+    transition: transform 0.3s ease, padding 0.3s ease;
+    transform: scale(1.1);
+    color: #d6dd08;
+ }
+
+  .navLinks li {
+    cursor: pointer;
+    color: black;
+  }
+  
+  .authButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .signIn {
+    padding: 8px 15px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signUp {
+    padding: 8px 15px;
+    background: #f79d00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
